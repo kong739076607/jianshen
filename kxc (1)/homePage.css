@@ -46,7 +46,7 @@ left: 1300px;
 	width: 1920px;
 	height: 50px;
 	margin: 0 auto;
-	background: #05AA01;
+	background: #2AA102;
 }
 #nav ul {
 	width: 1145px;
@@ -54,20 +54,41 @@ left: 1300px;
 	margin-left: 360px;
 }
 #nav ul li{
+	
+	height: 50px;
 	list-style: none;
 	float: left;
 	font-size: 24px;
 	text-align: center;
 	line-height:47px ;
-	color: white;
-	margin-right: 94px;
+	
+	margin-right: 74px;
+}
+#nav ul li a{
+	height: 50PX;
+	display: inline-block;
+	color:white;
+	
 }
 
+#nav ul li a:hover{
+	background: white;
+	
+	color:green;
+}
+#nav a{
+	color: white;
+	text-decoration: none;
+}
 .nav{
 	width: 450px;
 	height: 100px;
 	float: left;
 	margin-left: 705px;
+}
+.nav a{
+	color: white;
+	text-decoration: none;
 }
 .nav #yrgk{
 	width: 100px;
@@ -82,8 +103,11 @@ left: 1300px;
 	position: relative;
 	bottom: 60PX;
 	background: #3Eb0fd;
+	transition: all 1s;
 }
-
+#yrgk:hover{
+	transform: translate(0px ,-50px);
+}
 .nav #zxzx{
 	width: 100px;
 	height: 100px;	
@@ -96,6 +120,10 @@ left: 1300px;
 	bottom: 60PX;
 	font-size: 35px;color: white;
 	background: #61CA3A;
+	transition: all 1s;
+}
+#zxzx:hover{
+	transform: translate(0px ,-50px);
 }
 .nav #jsxm{
 	width: 100px;	
@@ -109,6 +137,10 @@ left: 1300px;
 	bottom: 60PX;
 	float: left;color: white;
 	background: #F85C99;
+	transition: all 1s;
+}
+#jsxm:hover{
+	transform: translate(0px ,-50px);
 }
 .main{
 	width: 800px;
@@ -218,6 +250,9 @@ left: 1300px;
 	font-size: 16px;
 	
 }
+.b:hover{
+	background:#31B0FD ;
+}
 #yrserver{
 	width: 1920px;
 	height: 600px;
@@ -299,6 +334,9 @@ left: 1300px;
 	text-align: center;
 	line-height: 63px;
 }
+#botleft a:hover{
+	text-shadow: 3px 3px 5px green;
+}
 #botleft a{
 	color: green;
 	text-decoration: none;
@@ -363,7 +401,16 @@ left: 1300px;
 				margin-left: 87px;
 				line-height: 50px;
 			}
-			
+			.smbox a{
+				display: inline-block;
+				width: 190px;
+				height: 50px;
+				
+			}
+			.smbox:hover a{
+				background: green;
+				color: white;
+			}
 			.button {
 				color: black;
 				text-decoration: none;
