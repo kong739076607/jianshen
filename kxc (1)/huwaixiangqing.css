@@ -1,0 +1,126 @@
+
+#jsxq{
+	width: 1200px;
+	height: 1500px;
+	
+	margin: 0 auto;
+	margin-top: 100px;
+}
+#jsbt a{
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+#jsbt a:hover{
+	color:#04AA00 ;
+	text-decoration: underline red;
+	text-shadow: 2px 2px 3px #5F9EA0;
+}
+#qipaizhuo{
+	width: 1200px;
+	height: 520px;
+	margin-top: 40px;
+}
+#qpztutu{
+	float: left;
+	width: 741px;
+	height: 517px;
+	border: 3px solid gray;
+}
+#qpztutu img{
+	width: 741px;
+	height: 517px;
+	transition: all 2s;
+	
+}
+#qpztutu img:hover{
+	transform:  rotate(360deg) scale(1.1);
+}
+#qipaizhuoxq{
+	
+}
+#qipaizhuoxq ul{
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-left: 16px;
+}
+
+#qipaizhuoxq li{
+	margin-bottom: 23px;
+	
+}
+#txt1{
+	width: 309px;
+	height: 54px;
+	font-size: 24px;
+	background: #04AA00;
+	color: white;
+	text-align: center;
+	line-height: 54px;
+}
+#txt2{
+	font-size: 48px;
+}
+#txt3{
+	font-size: 24px;
+}
+#txt4{
+	font-size: 24px;
+}
+#txt5{
+	font-size: 24px;
+}
+#dianhua{
+	width: 356px;
+	height: 89px;
+}
+#dianhua dl{
+	margin: 0;
+	padding: 0;
+}
+#dianhua dt{
+	width: 88px;
+	height: 89px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	
+}
+#dianhua dd{
+	width: 248px;
+	height: 89px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	margin-left: 20px;
+	
+}
+#dianhua dd span{
+	font-size: 36px;
+	color: #ff5c00;
+}
+#ljzx{
+	width: 398px;
+	height: 81px;
+	font-size: 48px;
+	background:#A4B5C7;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 81px;
+}
+#ljzx a{
+	color: white;
+	text-decoration: none;
+}
+#ljzx:hover {
+	background: greenyellow;
+	font-style:  oblique;
+	color: greenyellow;
+	
+}
+#ljzx a:hover{
+	color:#3EB0FD;
+}

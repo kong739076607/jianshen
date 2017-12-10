@@ -48,6 +48,47 @@ left: 1300px;
 	margin: 0 auto;
 	background: #2AA102;
 }
+#xialanav{
+	width: 1100px;
+	height: 177px;
+	background:rgba(191,186,190,0.6) ;
+	
+	position: relative;
+	top: -604px;
+	left: 350px;
+	display: none;
+	
+}
+#xialanav ul{
+	float: left;
+	margin: 0;
+	margin-right:99px;
+	list-style: none;
+}
+.ul1{
+	position: relative;
+	left: -43px;
+}
+#xialanav ul li{
+	font-size: 24px;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+#xialanav ul li a{
+	color: black;
+	text-decoration: none;
+	
+	
+}
+#xialanav ul li:hover a{
+	color: white;
+	
+}
+#xialanav ul li:hover{
+	border-bottom: 2px solid #13CC40;
+	
+}
 #nav ul {
 	width: 1145px;
 	height: 40px;
@@ -79,6 +120,10 @@ left: 1300px;
 #nav a{
 	color: white;
 	text-decoration: none;
+}
+.banner{
+	width: 1920px;
+	height: 600px;
 }
 .nav{
 	width: 450px;
@@ -116,7 +161,7 @@ left: 1300px;
 	text-align: center;
 	border: 5px solid ;
 	border-radius: 50%;	
-		position: relative;
+	position: relative;
 	bottom: 60PX;
 	font-size: 35px;color: white;
 	background: #61CA3A;

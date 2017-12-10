@@ -1,0 +1,39 @@
+#jsxq{
+	width: 1200px;
+	height: 1500px;
+	
+	margin: 0 auto;
+	margin-top: 100px;
+}
+#jsbt a{
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+#jsbt a:hover{
+	color:#04AA00 ;
+}
+#tututop{
+	margin-top: 100px;
+	width: 1200px;
+	height: 250px;
+}
+#tututop img{
+	margin-right: 0px;
+}
+#tutucenter{
+	width: 1200px;
+	height: 250px;
+	margin-top: 235px;
+}
+#tutucenter img{
+	margin-right: 0px;
+}
+#tutubuttom{
+	width: 1200px;
+	height: 250px;
+	margin-top: 235px;
+}
+#tutubuttom img{
+	margin-right: 0px;
+}
