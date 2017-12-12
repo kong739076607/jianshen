@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#bodder {
+	width: 100%;
+}
+/*上层部分*/
+#header {
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+}
+
+
+#headerleft {
+	width: 557px;
+	height: 101px;
+	margin-top: 10px;
+}
+
+
+#headerright {
+	width: 350px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 40px;
+	color: #4f4f4f;
+	position: relative;
+	left: 1300px;
+	top: -70px;
+}
+
+
+#headerright input {
+	width: 288px;
+	height: 40px;
+	border: 0;
+	margin-left: 22px;
+	font-size: 24px;
+	outline: none;
+}
+
+
+#headerright img {
+	position: relative;
+	top: 5px;
+	right: 20px;
+}
+
+
+#nav{
+	width: 1920px;
+	height: 50px;
+	margin: 0 auto;
+	background: #2AA102;
+}
+#nav ul {
+	width: 1145px;
+	height: 40px;
+	margin-left: 360px;
+}
+
+
+#nav ul li {
+	height: 50px;
+	list-style: none;
+	float: left;
+	font-size: 24px;
+	text-align: center;
+	line-height: 47px;
+	margin-right: 74px;
+}
+
+
+#nav ul li a {
+	height: 50PX;
+	display: inline-block;
+	color: white;
+}
+
+
+#nav ul li a:hover {
+	background: white;
+	color: green;
+}
+
+
+#nav a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+#xialanav {
+	width: 1100px;
+	height: 177px;
+	background: rgba(191, 186, 190, 0.6);
+	position: absolute;
+	top: 180px;
+	left: 350px;
+	z-index: 10px;
+	display: none;
+}
+
+
+#xialanav ul {
+	float: left;
+	margin: 0;
+	margin-right: 99px;
+	list-style: none;
+}
+
+
+.ul1 {
+	position: relative;
+	left: -43px;
+}
+
+
+#xialanav ul li {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+#xialanav ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+
+#xialanav ul li:hover a {
+	color: white;
+}
+
+
+#xialanav ul li:hover {
+	border-bottom: 2px solid #13CC40;
+}
+
+
+
+
+.banner {
+	width: 1920px;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	position:relative;
+}
+
+
+.box02 {
+	width: 7680px;
+	border: 3px solid black;
+	overflow: hidden;
+}
+.box02 img{
+	width: 1920px;
+	height: 600px;
+	float: left;
+}
+.box02 ul {
+	list-style: none;
+	overflow: hidden;
+	position: absolute;
+	left: 180px;
+	bottom: 0px;
+}
+
+
+.box02 li {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.nav {
+	width: 450px;
+	height: 100px;
+	float: left;
+	position: relative;
+	left: 800px;
+	margin: 0 auto;
+}
+
+
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.nav #yrgk {
+	width: 100px;
+	height: 100px;
+	margin-left: 40px;
+	float: left;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 50%;
+	font-size: 35px;
+	color: white;
+	position: relative;
+	bottom: 60PX;
+	background: #3Eb0fd;
+	transition: all 1s;
+}
+
+
+#yrgk:hover {
+	transform: translate(0px, -50px);
+}
+
+
+.nav #zxzx {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 50%;
+	position: relative;
+	bottom: 60PX;
+	font-size: 35px;
+	color: white;
+	background: #61CA3A;
+	transition: all 1s;
+}
+
+
+#zxzx:hover {
+	transform: translate(0px, -50px);
+}
+
+
+.nav #jsxm {
+	width: 100px;
+	font-size: 35px;
+	height: 100px;
+	margin-left: 40px;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 50%;
+	position: relative;
+	bottom: 60PX;
+	float: left;
+	color: white;
+	background: #F85C99;
+	transition: all 1s;
+}
+
+
+#jsxm:hover {
+	transform: translate(0px, -50px);
+}
+			#main {
+				width: 100%;
+				height: 1800px;
+				margin-top: 50px;
+			}
+			
+			.main1 {
+				width: 1200px;
+				height: 1800px;
+				margin: 0 auto;
+			}
+			
+			.main_box1 {
+				width: 1200px;
+				height: 26px;
+			}
+			
+			#main .main_box1 a {
+				color: #000000;
+				font-size: 26px;
+				position: relative;
+				text-decoration: none;
+			}
+			
+			.main_box2 {
+				width: 100%;
+				height: 239px;
+				position: relative;
+				top: 60px;
+			}
+			.main_box2 dl{
+				width: 1200px;
+				 height: 189px;
+				 
+			}	
+			.main_box2 dl dt{
+				float: left;
+				width: 285px;
+				 height: 189px;
+			}
+			.main_box2 dl dd{
+				float: left;
+				width: 300px;
+				 height: 24px;
+				 margin: 0;
+				 font-size: 22px;
+				 position: relative;
+				 top: 48px;
+				 text-align: center;
+			}
+			.main_top {
+				width: 800px;
+				height: 120px;
+				position: relative;
+			}
+			
+			.main_wenzi {
+				width: 800px;
+				height: 60px;
+			}
+			
+			.main_top .xian {
+				width: 83px;
+				height: 5px;
+				border: 2px;
+				position: relative;
+				left: 555px;
+				background: #5FCA3C;
+			}
+			
+			.main_top .yingwen {
+				width: 800px;
+				height: 34px;
+				margin-top: 15px;
+				color: white;
+			}
+	/*最下端部分*/
+#sybase {
+	height: 400px;
+	width: 1920px;
+	background: #05AA01;
+	margin: 0 auto;
+	margin-top: -280px;
+}
+		</style>
+		<script type="text/javascript" src="jquery-1.7.1.min.js">
+			
+		</script>
+	</head>
+
+	<body>
+<!--上层部分-->
+		<div id="bodder">
+			<div id="header">
+				<div id="headerleft">
+					<img style="margin-left: 340px;" src="images/首页_03.gif" />
+				</div>
+				<div id="headerright">
+					<form action="" method="post">
+						<input type="text" value="请输入搜索内容" />
+						<img src="images/fangdajing.png" />
+					</form>
+				</div>
+			</div>
+			<div id="nav">
+
+
+				<ul>
+					<li id="li1">
+						<a href="homePage.html">首页<img src="images/首页_0300_07.gif" /> </a>
+					</li>
+					<li id="li2">
+						<a href="yrdt.html">盈瑞概况<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li3">
+						<a href="chanpinjiayong.html">产品展示<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li4">
+						<a href="jianshenxm.html">健身项目<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li5">
+						<a href="zxzx.html">咨询中心<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li6">
+						<a href="jrwm.html">服务与支持<img src="images/首页_0300_07.gif" /></a>
+					</li>
+				</ul>
+
+
+			</div>
+			<script type="text/javascript">
+				window.onload = function() {
+	//下拉框
+	var li = document.getElementsByTagName("li1");
+	var xiala = document.getElementById("xialanav");
+	for(var i = 1; i <= 6; i++) {
+		var l = document.getElementById("li" + i);
+		l.onmousemove = function() {
+			xiala.style.display = "block";
+		}
+		l.onmouseout = function() {
+			xiala.style.display = "none";
+		}
+	}
+
+
+	xiala.onmousemove = function() {
+		xiala.style.display = "block";
+
+
+	}
+	xiala.onmouseout = function() {
+		xiala.style.display = "none";
+	}
+
+
+	
+
+
+}
+			</script>
+			<div class="banner">
+
+
+				<!--要移动的盒子-->
+				<div class="box02">
+					<img src="images/01_02.gif">
+					<img src="images/02_02.gif">
+					<img src="images/03_02.gif">
+					<img src="images/01_02.gif">
+				</div>
+
+
+			</div>
+			<script type="text/javascript">
+				/*轮播*/
+				n = 0;
+
+
+				function q() {
+					n++;
+					if(n > 3) {
+						n = 0;
+						$(".box02").css({
+							"margin-left": "0px"
+						});
+					}
+					$(".box02").animate({
+						marginLeft: -1920 * n
+					}, 2000);
+
+
+				}
+				time = setInterval(q, 3000);
+			</script>
+			<div id="xialanav">
+					<ul>
+						<li>
+							<a href="yrgk.html">盈瑞概括</a>
+						</li>
+						<li>
+							<a href="zxzx.html">咨询中心</a>
+						</li>
+						<li>
+							<a href="jrwm.html">服务流程</a>
+						</li>
+						<li>
+							<a href="jianshenxm.html">健身项目</a>
+						</li>
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="yrgk.html">盈瑞简介</a>
+						</li>
+						<li>
+							<a href="yrdt.html">盈瑞动态</a>
+						</li>
+
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="chanpinjiayong.html">家用</a>
+						</li>
+						<li>
+							<a href="chanpinhuwai.html  ">户外</a>
+						</li>
+						<li>
+							<a href="chanpinpinpai.html ">品牌</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="jsxmyujia.html ">瑜伽</a>
+						</li>
+						<li>
+							<a href="jsxmgangling.html">杠铃</a>
+						</li>
+						<li>
+							<a href="jsxmdanche.html">单车</a>
+						</li>
+						<li>
+							<a href="jsxm.html">普拉提</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="chanpinjiayong.html">产品咨询</a>
+						</li>
+						<li>
+							<a href="zxtwo.html">健身咨询</a>
+						</li>
+						<li>
+							<a href="zxzx.html">新闻咨询</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="lxwm.html">服务保障</a>
+						</li>
+						<li>
+							<a href="lxwm.html">联系我们</a>
+						</li>
+						<li>
+							<a href="jrwm.html">加入我们</a>
+						</li>
+						<li>
+							<a href="wxcs.html">维修常识</a>
+						</li>
+
+					</ul>
+				</div>
+
+
+			<div class="nav">
+				<div id="yrgk">
+					<span><a href="yrgk.html">赢瑞简介</a></span>
+				</div>
+				<div id="zxzx">
+					<span><a href="yrdt.html">贏瑞动态</a></span>
+				</div>
+				
+			</div>
+		<div id="main">
+			<div class="main1">
+				<div class="main_box1">
+					<a href="homePage.html">首页</a>
+					<span>—</span>
+					<a href="yrgk.html">赢瑞概况</a>
+					<span>—</span>
+					<a href="#">公司简介</a>
+				</div>
+				<div class="main_box2">
+					<div class="main_top">
+						<div class="main_wenzi">
+							<span style="margin-left: 417px;font-size: 40px;">赢瑞动态</span>
+						</div>
+						<div class="xian"></div>
+						<div class="yingwen">
+							<span style="margin-left: 525px;color: #969696;">COMPANY&nbsp;PROFIRE</span>
+						</div>
+							<dl>
+								<dt>
+									<img src="images/3级企业概况公司动态1_03.png"/>
+								</dt>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态2_05.png"/>
+								</dt>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态3_07.png"/>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态4_09.png"/>
+								</dt>
+								<dd>赢瑞都市快健身</dd>
+								<dd>Myst活力派对</dd>
+								<dd>赢瑞晨跑挑战赛完美收官！</dd>
+								<dd>x&nbsp;Sixpad打造科技健身热潮</dd>
+							</dl>
+						<dl style="margin-top: 137px;">
+								<dt>
+									<img src="images/3级企业概况公司动态5_15.png"/>
+								</dt>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态15_17.png"/>
+								</dt>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态15_18.png"/>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态8_20.png"/>
+								</dt>
+								<dd>腹肌大赛再曾万元奖品！</dd>
+								<dd>买健身卡最好的时候“现在”</dd>
+								<dd>春天“色”斯健身开启</dd>
+								<dd>深情不及久伴，厚爱无需多言</dd>
+							</dl>
+							<dl style="margin-top: 137px;">
+								<dt>
+									<img src="images/3级企业概况公司动态9_26.png"/>
+								</dt>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态9_27.png"/>
+								</dt>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态9_29.png"/>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态9_31.png"/>
+								</dt>
+								<dd>10招饮食指南迈向顶尖腹肌！</dd>
+								<dd>新课程即将快来释放激情！</dd>
+								<dd>POWER热力课程，全新登场</dd>
+								<dd>情人节，要全城热炼！</dd>
+							</dl>	
+							<dl style="margin-top: 137px;">
+								<dt>
+									<img src="images/3级企业概况公司动态13_37.png"/>
+								</dt>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态14_39.png"/>
+								</dt>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态15_41.png"/>
+								<dt style="margin-left: 18px;">
+									<img src="images/3级企业概况公司动态16_42.png"/>
+								</dt>
+								<dd>这是全球公认最好的运动</dd>
+								<dd>玩美一夏，Be lcon活动花絮</dd>
+								<dd>赢瑞健身与UA强强联手</dd>
+								<dd>赢瑞健身新版公众号用户指南</dd>
+							</dl>
+					</div>
+
+				</div>
+				
+				
+			</div>
+		</div>
+	<!--最下端部分-->
+			<div id="sybase">
+				<span id="font">
+				<span>
+					<img style="margin-top: 100px; margin-left: 330px;" src="images/二维码_47.png" height="150px"/>
+				<ul style="list-style: none;margin-left:500px;margin-top: -120px; line-height: 30px;color: white;font-size: 20px;">
+					<li style="letter-spacing: 5px;">山西盈瑞科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;备案号：晋ICP备17006549号—3</li>
+					<li style="letter-spacing: 2px;">联系电话：17634068219&nbsp;&nbsp;&nbsp;&nbsp;0351—7891032</li>
+					<li>QQ：3849009147&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：山西省太原市盛世华庭四层</li>
+				</ul>
+				</span>
+				<span style="position: relative;left: 1450px;top: -100px;color: white;">
+					分享:
+					<img style="position: relative;top: 10px;" src="images/微信_07.png" width="30px" />
+					<img style="position: relative;top: 10px;" src="images/扣扣_12.png" width="30px" />
+				</span>
+				</span>
+			</div>
+	</body>
+
+</html>

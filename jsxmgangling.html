@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>杠铃</title>
+		<link rel="stylesheet" type="text/css" href="jsxmgangling.css"/>
+	<script type="text/javascript" src="homePage.js"></script>
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+	</head>
+	<body>
+		
+		<!--上层部分-->
+		<div id="bodder">
+			<div id="header">
+				<div id="headerleft">
+					<img style="margin-left: 340px;" src="images/首页_03.gif" />
+				</div>
+				<div id="headerright">
+					<form action="" method="post">
+						<input type="text" value="请输入搜索内容" />
+						<img src="images/fangdajing.png" />
+					</form>
+				</div>
+			</div>
+			<div id="nav">
+
+				<ul>
+					<li id="li1">
+						<a href="homePage.html">首页<img src="images/首页_0300_07.gif" /> </a>
+					</li>
+					<li id="li2">
+						<a href="yrgk.html">盈瑞概况<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li3">
+						<a href="chanpinjiayong.html">产品展示<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li4">
+						<a href="jianshenxm.html">健身项目<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li5">
+						<a href="zxzx.html">咨询中心<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li6">
+						<a href="jrwm.html">服务与支持<img src="images/首页_0300_07.gif" /></a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="banner">
+
+				<!--要移动的盒子-->
+				<div class="box02">
+					<img src="images/01_02.gif">
+					<img src="images/02_02.gif">
+					<img src="images/03_02.gif">
+					<img src="images/01_02.gif">
+				</div>
+
+			</div>
+			<script type="text/javascript">
+				/*轮播*/
+				n = 0;
+
+				function q() {
+					n++;
+					if(n > 3) {
+						n = 0;
+						$(".box02").css({
+							"margin-left": "0px"
+						});
+					}
+					$(".box02").animate({
+						marginLeft: -1920 * n
+					}, 2000);
+
+				}
+				time = setInterval(q, 3000);
+			</script>
+			<div id="xialanav">
+					<ul>
+						<li>
+							<a href="yrgk.html">盈瑞概括</a>
+						</li>
+						<li>
+							<a href="zxzx.html">咨询中心</a>
+						</li>
+						<li>
+							<a href="jrwm.html">服务流程</a>
+						</li>
+						<li>
+							<a href="jianshenxm.html">健身项目</a>
+						</li>
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="yrgk.html">盈瑞简介</a>
+						</li>
+						<li>
+							<a href="yrdt.html">盈瑞动态</a>
+						</li>
+
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="chanpinjiayong.html">家用</a>
+						</li>
+						<li>
+							<a href="chanpinhuwai.html  ">户外</a>
+						</li>
+						<li>
+							<a href="chanpinpinpai.html ">品牌</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="jsxmyujia.html ">瑜伽</a>
+						</li>
+						<li>
+							<a href="jsxmgangling.html">杠铃</a>
+						</li>
+						<li>
+							<a href="jsxmdanche.html">单车</a>
+						</li>
+						<li>
+							<a href="jsxm.html">普拉提</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="chanpinjiayong.html">产品咨询</a>
+						</li>
+						<li>
+							<a href="zxtwo.html">健身咨询</a>
+						</li>
+						<li>
+							<a href="zxzx.html">新闻咨询</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="lxwm.html">服务保障</a>
+						</li>
+						<li>
+							<a href="lxwm.html">联系我们</a>
+						</li>
+						<li>
+							<a href="jrwm.html">加入我们</a>
+						</li>
+						<li>
+							<a href="wxcs.html">维修常识</a>
+						</li>
+
+					</ul>
+				</div>
+
+			<div class="nav">
+				<div id="yrgk">
+					<span><a href="jsxmyujia.html">瑜伽</a></span>
+				</div>
+				<div id="zxzx">
+					<span><a href="jsxmgangling.html">杠铃</a></span>
+				</div>
+				<div id="jsxm">
+					<sapn>
+						<a href="jsxmdanche.html">单车</a>
+					</sapn>
+				</div>
+				<div id="jsxm1">
+					<sapn>
+						<a href="jsxm.html">普拉提</a>
+					</sapn>
+				</div>
+			</div>
+		
+		
+		<div id="jsxmyujia">
+			<div id="jsbt">
+				<a href="homePage.html">首页</a>—
+				<a href="jianshenxm.html">健身项目</a>—
+				<a href="jsxmyujia.html">瑜伽</a>
+			</div>
+			<div>
+				<img src="images/3级健身项目杠铃_03.gif"/>
+			</div>
+			<div id="yujiatxt">
+				<ul>
+					<li>重点锻炼部位：胸大肌、三角肌和肱三头肌。绝大多数的冠军健美运动员把仰握推举作为锻炼上身最好的动作 开始位置：仰卧在平的卧推凳上，两脚平踏在地上两手掌向上握住横杠，两手间距比肩稍为宽些，两臂伸直支撑住杠铃位于胸的上部。 动作过程：使两直臂向两侧张开，两臂慢慢弯屈，杠铃垂直落下，直至横杠接触到胸部(大约接近乳头线上方)。然后向上推起至开设位置，重复做。训练要点：不要把背和臀部拱起或憋气，这样会使肌肉失去控制，是危险的。</li>
+					<li>杠铃锻炼的方法：</li>
+					<li>1、两头加重量，可以进行举重，可以练习臂膀的拉、提、挂、韧劲。</li>
+					<li>2、根据笔者的体质来进行调节两端的重量，可以担杠跑步，可以有效调节腰部、腿部、肩部的忍耐力。</li>
+					<li>3、双腿分开站着，上身上腿呈90度，双手举杠，能大幅度协助压腿（需要良好的腰劲，不懂动作要领，不要模仿），</li>
+					<li>4、杠铃放在地上，可以有效助笔者做好俯卧撑、压腿，横劈，竖劈等动作。</li>
+					<li>总之一句话，笔者在练习之前，只要能就地取材，练习什么动作都可利用。</li>
+				</ul>
+			</div>
+			<div id="yujiatu2">
+				<img src="images/3级健身项目杠铃__07.gif"/>
+			</div>
+		</div>
+		
+		<div id="sybase">
+			<span id="font">
+				<span>
+					<img style="margin-top: 100px; margin-left: 330px;" src="images/二维码_47.png" height="150px"/>
+				<ul style="list-style: none;margin-left:500px;margin-top: -120px; line-height: 30px;color: white;font-size: 20px;">
+					<li style="letter-spacing: 5px;">山西盈瑞科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;备案号：晋ICP备17006549号—3</li>
+					<li style="letter-spacing: 2px;">联系电话：17634068219&nbsp;&nbsp;&nbsp;&nbsp;0351—7891032</li>
+					<li>QQ：3849009147&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：山西省太原市盛世华庭四层</li>
+				</ul>
+				</span>
+				<span style="position: relative;left: 1450px;top: -100px;color: white;">
+					分享:
+					<img style="position: relative;top: 10px;" src="images/微信_07.png" width="30px" />
+					<img style="position: relative;top: 10px;" src="images/扣扣_12.png" width="30px" />
+				</span>
+			</span>
+        </div>
+		
+	</body>
+</html>

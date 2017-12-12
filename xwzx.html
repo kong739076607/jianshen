@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#bodder {
+	width: 100%;
+}
+/*上层部分*/
+#header {
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+}
+
+
+#headerleft {
+	width: 557px;
+	height: 101px;
+	margin-top: 10px;
+}
+
+
+#headerright {
+	width: 350px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 40px;
+	color: #4f4f4f;
+	position: relative;
+	left: 1300px;
+	top: -70px;
+}
+
+
+#headerright input {
+	width: 288px;
+	height: 40px;
+	border: 0;
+	margin-left: 22px;
+	font-size: 24px;
+	outline: none;
+}
+
+
+#headerright img {
+	position: relative;
+	top: 5px;
+	right: 20px;
+}
+
+
+#nav{
+	width: 1920px;
+	height: 50px;
+	margin: 0 auto;
+	background: #2AA102;
+}
+#nav ul {
+	width: 1145px;
+	height: 40px;
+	margin-left: 360px;
+}
+
+
+#nav ul li {
+	height: 50px;
+	list-style: none;
+	float: left;
+	font-size: 24px;
+	text-align: center;
+	line-height: 47px;
+	margin-right: 74px;
+}
+
+
+#nav ul li a {
+	height: 50PX;
+	display: inline-block;
+	color: white;
+}
+
+
+#nav ul li a:hover {
+	background: white;
+	color: green;
+}
+
+
+#nav a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+#xialanav {
+	width: 1100px;
+	height: 177px;
+	background: rgba(191, 186, 190, 0.6);
+	position: absolute;
+	top: 180px;
+	left: 444px;
+	z-index: 10px;
+	display: none;
+}
+
+
+#xialanav ul {
+	float: left;
+	margin: 0;
+	margin-right: 99px;
+	list-style: none;
+}
+
+
+.ul1 {
+	position: relative;
+	left: -43px;
+}
+
+
+#xialanav ul li {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+#xialanav ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+
+#xialanav ul li:hover a {
+	color: white;
+}
+
+
+#xialanav ul li:hover {
+	border-bottom: 2px solid #13CC40;
+}
+
+
+
+
+.banner {
+	width: 1920px;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	position:relative;
+}
+
+
+.box02 {
+	width: 7680px;
+	border: 3px solid black;
+	overflow: hidden;
+}
+.box02 img{
+	width: 1920px;
+	height: 600px;
+	float: left;
+}
+.box02 ul {
+	list-style: none;
+	overflow: hidden;
+	position: absolute;
+	left: 180px;
+	bottom: 0px;
+}
+
+
+.box02 li {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.nav {
+	width: 450px;
+	height: 100px;
+	float: left;
+	position: relative;
+	left: 800px;
+	margin: 0 auto;
+}
+
+
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.nav #yrgk {
+	width: 100px;
+	height: 100px;
+	margin-left: 40px;
+	float: left;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 50%;
+	font-size: 35px;
+	color: white;
+	position: relative;
+	bottom: 60PX;
+	background: #3Eb0fd;
+	transition: all 1s;
+}
+
+
+#yrgk:hover {
+	transform: translate(0px, -50px);
+}
+
+
+.nav #zxzx {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 50%;
+	position: relative;
+	bottom: 60PX;
+	font-size: 35px;
+	color: white;
+	background: #61CA3A;
+	transition: all 1s;
+}
+
+
+#zxzx:hover {
+	transform: translate(0px, -50px);
+}
+
+
+.nav #jsxm {
+	width: 100px;
+	font-size: 35px;
+	height: 100px;
+	margin-left: 40px;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 50%;
+	position: relative;
+	bottom: 60PX;
+	float: left;
+	color: white;
+	background: #F85C99;
+	transition: all 1s;
+}
+
+
+#jsxm:hover {
+	transform: translate(0px, -50px);
+}
+			#header{
+	width: 100%;
+	height: 120px;
+	margin:0 auto;
+}
+#headerleft{
+
+
+	width: 557px;
+	height: 101px;
+	margin-top:10px ;
+	
+}
+#headerright{
+	width: 350px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 40px;
+	color: #4f4f4f;
+position: relative;
+left: 1300px;
+	top:-70px ;
+}
+#headerright input{
+	width: 288px;
+	height: 40px;
+	border: 0;
+	margin-left: 22px;
+	font-size: 24px;
+	outline: none;
+}
+#headerright img{
+	position: relative;
+    top: 5px;
+    right: 20px;
+}
+#nav{
+	width: 1920px;
+	height: 50px;
+	margin: 0 auto;
+	background: #05AA01;
+	
+}
+#nav ul {
+	width: 1145px;
+	height: 40px;
+	margin-left: 360px;
+}
+#nav ul li{
+	list-style: none;
+	float: left;
+	font-size: 24px;
+	text-align: center;
+	line-height:47px ;
+	color: white;
+	margin-right: 94px;
+}
+.nav{
+	width: 830px;
+	height: 100px;
+	float: left;
+	margin-left: 770px;
+	
+}
+
+.nav #yrgk{
+	width: 100px;
+	height: 100px;
+	margin-left: 40px;
+	float: left;
+	text-align: center;
+	border: 5px solid ;
+	border-radius: 50%;	
+	font-size: 35px;
+	color: white;
+	position: relative;
+	bottom: 60PX;
+	background: #3Eb0fd;
+}
+
+
+
+.nav #jsxm{
+	width: 100px;	
+	font-size: 35px;
+	height: 100px;
+	margin-left: 40px;
+	text-align: center;
+	border: 5px solid ;
+	border-radius: 50%;	
+	position: relative;
+	bottom: 60PX;
+	float: left;color: white;
+	background: #F85C99;
+}
+            #main {
+				width: 100%;
+				height: 950px;
+			}
+			#main .main_box1 a {
+				color: #000000;
+				font-size: 26px;
+				text-decoration: none;
+			}
+			#bt {
+				font-size: 30px;
+				
+				text-align: center;
+				height: 100px;
+				margin-top: 100px;
+				margin-left: 240px;
+			}
+			.main1 {
+				width: 1200px;
+				height: 1000px;
+				margin: 0 auto;
+			}
+			
+			.main_box1 {
+				width: 1200px;
+				height: 26px;
+			}
+			#sybase {
+				height: 400px;
+				width: 1920px;
+				background: #05AA01;
+				margin-top: -81px;
+				margin-left: 0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!--上层部分-->
+		<div id="bodder">
+			<div id="header">
+				<div id="headerleft">
+					<img style="margin-left: 340px;" src="images/首页_03.gif" />
+				</div>
+				<div id="headerright">
+					<form action="" method="post">
+						<input type="text" value="请输入搜索内容" />
+						<img src="images/fangdajing.png" />
+					</form>
+				</div>
+			</div>
+			<div id="nav">
+
+
+				<ul>
+					<li id="li1">
+						<a href="homePage.html">首页<img src="images/首页_0300_07.gif" /> </a>
+					</li>
+					<li id="li2">
+						<a href="yrgk.html">盈瑞概况<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li3">
+						<a href="chanpinjiayong.html">产品展示<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li4">
+						<a href="jianshenxm.html">健身项目<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li5">
+						<a href="zxzx.html">咨询中心<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li6">
+						<a href="jrwm.html">服务与支持<img src="images/首页_0300_07.gif" /></a>
+					</li>
+				</ul>
+
+
+			</div>
+			<script type="text/javascript">
+				window.onload = function() {
+	//下拉框
+	var li = document.getElementsByTagName("li1");
+	var xiala = document.getElementById("xialanav");
+	for(var i = 1; i <= 6; i++) {
+		var l = document.getElementById("li" + i);
+		l.onmousemove = function() {
+			xiala.style.display = "block";
+		}
+		l.onmouseout = function() {
+			xiala.style.display = "none";
+		}
+	}
+
+
+	xiala.onmousemove = function() {
+		xiala.style.display = "block";
+
+
+	}
+	xiala.onmouseout = function() {
+		xiala.style.display = "none";
+	}
+
+
+}
+			</script>
+			<div class="banner">
+
+
+				<!--要移动的盒子-->
+				<div class="box02">
+					<img src="images/01_02.gif">
+					<img src="images/02_02.gif">
+					<img src="images/03_02.gif">
+					<img src="images/01_02.gif">
+				</div>
+
+
+			</div>
+			<script type="text/javascript">
+				/*轮播*/
+				n = 0;
+
+
+				function q() {
+					n++;
+					if(n > 3) {
+						n = 0;
+						$(".box02").css({
+							"margin-left": "0px"
+						});
+					}
+					$(".box02").animate({
+						marginLeft: -1920 * n
+					}, 2000);
+
+
+				}
+				time = setInterval(q, 3000);
+			</script>
+			<div id="xialanav">
+					<ul>
+						<li>
+							<a href="yrgk.html">盈瑞概括</a>
+						</li>
+						<li>
+							<a href="zxzx.html">咨询中心</a>
+						</li>
+						<li>
+							<a href="jrwm.html">服务流程</a>
+						</li>
+						<li>
+							<a href="jianshenxm.html">健身项目</a>
+						</li>
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="yrgk.html">盈瑞简介</a>
+						</li>
+						<li>
+							<a href="yrdt.html">盈瑞动态</a>
+						</li>
+
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="chanpinjiayong.html">家用</a>
+						</li>
+						<li>
+							<a href="chanpinhuwai.html  ">户外</a>
+						</li>
+						<li>
+							<a href="chanpinpinpai.html ">品牌</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="jsxmyujia.html ">瑜伽</a>
+						</li>
+						<li>
+							<a href="jsxmgangling.html">杠铃</a>
+						</li>
+						<li>
+							<a href="jsxmdanche.html">单车</a>
+						</li>
+						<li>
+							<a href="jsxm.html">普拉提</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="chanpinjiayong.html">产品咨询</a>
+						</li>
+						<li>
+							<a href="zxtwo.html">健身咨询</a>
+						</li>
+						<li>
+							<a href="zxzx.html">新闻咨询</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="lxwm.html">服务保障</a>
+						</li>
+						<li>
+							<a href="lxwm.html">联系我们</a>
+						</li>
+						<li>
+							<a href="jrwm.html">加入我们</a>
+						</li>
+						<li>
+							<a href="wxcs.html">维修常识</a>
+						</li>
+
+					</ul>
+				</div>
+
+
+			<div class="nav">
+				<div id="yrgk">
+					<span><a href="yrgk.html">赢瑞概况</a></span>
+				</div>
+				<div id="zxzx">
+					<span><a href="zxzx.html">咨询中心</a></span>
+				</div>
+				<div id="jsxm">
+					<sapn>
+						<a href="jianshenxm.html">健身项目</a>
+					</sapn>
+				</div>
+			</div>
+			
+		<div id="main">
+			
+			<div class="main1">
+				<div class="main_box1">
+					<a href="homePage.html">首页</a>
+					<span>—</span>
+					<a href="zxzx.html">资讯中心</a>
+					<span>—</span>
+					<a href="zxtwo.html">新闻资讯</a>
+				</div>
+				<div style="margin-top: 138px;line-height: 18px;font-size: 15px;">
+			11月11日——11月13日，2017山西省城市假日盈瑞科技八人制足球总决赛在太原体
+			育中心举行，盈瑞科技健身足球队以两胜一平的成绩成功夺得此次比赛季军。<br />
+			八人制足球赛是山西省规模最大的业余足球赛事，比赛贯穿全省，共有102支队伍参与比赛，
+			500余名足球运动爱好者参与其中。经过几百余场的角逐，最终共有七支队伍进入到了总决赛。<br />
+			11月11日，盈瑞健身足球队首轮对抗康乐美健身队，以2:0的成绩战胜康乐美队。11月12日，
+			军霞队对阵南通通达恒胜队，最终以平局结束比赛。11月13日，军霞队对阵宿迁中睿队，最
+			终以5:4的成绩赢得比赛。 <br />
+			最终，军霞队以两胜一平的成绩夺得此次比赛的季军。 
+		</div>
+		
+		<img style="margin-top: 50px;" src="images/4级资讯中心新闻资讯详情02_03.gif"/>
+		</div>
+		
+		</div>
+		
+		<div id="sybase">
+			<span id="font">
+				<span>
+					<img style="margin-top: 100px; margin-left: 330px;" src="images/二维码_47.png" height="150px"/>
+				<ul style="list-style: none;margin-left:500px;margin-top: -120px; line-height: 30px;color: white;font-size: 20px;">
+					<li style="letter-spacing: 5px;">山西盈瑞科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;备案号：晋ICP备17006549号—3</li>
+					<li style="letter-spacing: 2px;">联系电话：17634068219&nbsp;&nbsp;&nbsp;&nbsp;0351—7891032</li>
+					<li>QQ：3849009147
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						地址：山西省太原市盛世华庭四层</li>
+				</ul>
+				</span>
+				<span style="position: relative;left: 1450px;top: -100px;color: white;">
+					分享:
+					<img style="position: relative;top: 10px;" src="images/微信_07.png" width="30px" />
+					<img style="position: relative;top: 10px;" src="images/扣扣_12.png" width="30px" />
+				</span>
+			</span>
+        </div>
+		
+	
+	</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="jianshentxt2.css" />
+		<script type="text/javascript" src="homePage.js"></script>
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+	</head>
+
+	<body>
+		<!--上层部分-->
+		<div id="bodder">
+			<div id="header">
+				<div id="headerleft">
+					<img style="margin-left: 340px;" src="images/首页_03.gif" />
+				</div>
+				<div id="headerright">
+					<form action="" method="post">
+						<input type="text" value="请输入搜索内容" />
+						<img src="images/fangdajing.png" />
+					</form>
+				</div>
+			</div>
+			<div id="nav">
+
+				<ul>
+					<li id="li1">
+						<a href="homePage.html">首页<img src="images/首页_0300_07.gif" /> </a>
+					</li>
+					<li id="li2">
+						<a href="yrgk.html">盈瑞概况<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li3">
+						<a href="chanpinjiayong.html">产品展示<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li4">
+						<a href="jianshenxm.html">健身项目<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li5">
+						<a href="zxzx.html">咨询中心<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li6">
+						<a href="jrwm.html">服务与支持<img src="images/首页_0300_07.gif" /></a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="banner">
+
+				<!--要移动的盒子-->
+				<div class="box02">
+					<img src="images/01_02.gif">
+					<img src="images/02_02.gif">
+					<img src="images/03_02.gif">
+					<img src="images/01_02.gif">
+				</div>
+
+			</div>
+			<script type="text/javascript">
+				/*轮播*/
+				n = 0;
+
+				function q() {
+					n++;
+					if(n > 3) {
+						n = 0;
+						$(".box02").css({
+							"margin-left": "0px"
+						});
+					}
+					$(".box02").animate({
+						marginLeft: -1920 * n
+					}, 2000);
+
+				}
+				time = setInterval(q, 3000);
+			</script>
+			<div id="xialanav">
+					<ul>
+						<li>
+							<a href="yrgk.html">盈瑞概括</a>
+						</li>
+						<li>
+							<a href="zxzx.html">咨询中心</a>
+						</li>
+						<li>
+							<a href="jrwm.html">服务流程</a>
+						</li>
+						<li>
+							<a href="jianshenxm.html">健身项目</a>
+						</li>
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="yrgk.html">盈瑞简介</a>
+						</li>
+						<li>
+							<a href="yrdt.html">盈瑞动态</a>
+						</li>
+
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="chanpinjiayong.html">家用</a>
+						</li>
+						<li>
+							<a href="chanpinhuwai.html  ">户外</a>
+						</li>
+						<li>
+							<a href="chanpinpinpai.html ">品牌</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="jsxmyujia.html ">瑜伽</a>
+						</li>
+						<li>
+							<a href="jsxmgangling.html">杠铃</a>
+						</li>
+						<li>
+							<a href="jsxmdanche.html">单车</a>
+						</li>
+						<li>
+							<a href="jsxm.html">普拉提</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="chanpinjiayong.html">产品咨询</a>
+						</li>
+						<li>
+							<a href="zxtwo.html">健身咨询</a>
+						</li>
+						<li>
+							<a href="zxzx.html">新闻咨询</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="lxwm.html">服务保障</a>
+						</li>
+						<li>
+							<a href="lxwm.html">联系我们</a>
+						</li>
+						<li>
+							<a href="jrwm.html">加入我们</a>
+						</li>
+						<li>
+							<a href="wxcs.html">维修常识</a>
+						</li>
+
+					</ul>
+				</div>
+
+			<div class="nav">
+				<div id="yrgk">
+					<span><a href="yrgk.html">赢瑞概况</a></span>
+				</div>
+				<div id="zxzx">
+					<span><a href="zxzx.html">咨询中心</a></span>
+				</div>
+				<div id="jsxm">
+					<sapn>
+						<a href="jianshenxm.html">健身项目</a>
+					</sapn>
+				</div>
+			</div>
+
+		
+		
+		
+		<!--中间部分-->
+		<div id="jszstxt">
+			<div id="jsbt">
+				<a href="homePage.html">首页</a>—
+				<a href="jianshentxt1.html">健身知识</a>—
+				<a href="jianshentxt2.html">详情</a>
+			</div>
+			<div id="jsneirong">
+				<div id="jsneirongone">
+					<ul>
+						<li> 时速单骑(spinnig)：推荐指数★★★★★</li>
+						<li><span>它是目前欧美最流行的有氧健身项目之一，有人把这项运动称做“自行车上的舞蹈”，通过运动使车轮不停地旋转、还可自行调节运动负荷，运动量可大可小、易学、易练又动感十足，从而达到减少腰腹部的赘肉、健美下肢和提高心肺功能的效果，<br />
+						☆不适合有关节病痛者，体能差的人群</span> </li>
+					</ul>
+				</div>
+				<div id="jsneirongtwo">
+					<ul>
+						<li>健身球：推荐指数★★★★★</li>
+						<li>
+							<p> 健身球最早在瑞士只作为康复医疗的设备。之后健身球又被传到澳大利亚、欧洲、美国等国家用来治疗腰背疾病、神经紊乱、膝盖和肩部康复医疗、纠正体态、提高病人的平衡等疾病。由于健身球在提高某些肌肉(腰背、骨盆)方面的作用，这项运动也被广泛推广。健身球现在不再仅作为一种理疗，它也成为新兴的健身运动。<br /> ☆适合人群：它适合所有需要康复治疗的人、它的健身效果良好，特别对脊柱和骨盆的锻炼；健身球有很好的损伤恢复和康复功能(对腰背疾病疗效显著)。在锻炼时比较安全，不容易出现损伤，还可以提高人(包括病人、受伤人)的柔韧、力量、平衡、姿态、心肺功能。
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="sybase">
+			<span id="font">
+				<span>
+					<img style="margin-top: 100px; margin-left: 330px;" src="images/二维码_47.png" height="150px"/>
+				<ul style="list-style: none;margin-left:500px;margin-top: -120px; line-height: 30px;color: white;font-size: 20px;">
+					<li style="letter-spacing: 5px;">山西盈瑞科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;备案号：晋ICP备17006549号—3</li>
+					<li style="letter-spacing: 2px;">联系电话：17634068219&nbsp;&nbsp;&nbsp;&nbsp;0351—7891032</li>
+					<li>QQ：3849009147&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：山西省太原市盛世华庭四层</li>
+				</ul>
+				</span>
+			<span style="position: relative;left: 1450px;top: -100px;color: white;">
+					分享:
+					<img style="position: relative;top: 10px;" src="images/微信_07.png" width="30px" />
+					<img style="position: relative;top: 10px;" src="images/扣扣_12.png" width="30px" />
+				</span>
+			</span>
+		</div>
+	</body>
+
+</html>

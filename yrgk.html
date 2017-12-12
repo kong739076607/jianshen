@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#bodder {
+	width: 100%;
+}
+/*上层部分*/
+#header {
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+}
+
+
+#headerleft {
+	width: 557px;
+	height: 101px;
+	margin-top: 10px;
+}
+
+
+#headerright {
+	width: 350px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 40px;
+	color: #4f4f4f;
+	position: relative;
+	left: 1300px;
+	top: -70px;
+}
+
+
+#headerright input {
+	width: 288px;
+	height: 40px;
+	border: 0;
+	margin-left: 22px;
+	font-size: 24px;
+	outline: none;
+}
+
+
+#headerright img {
+	position: relative;
+	top: 5px;
+	right: 20px;
+}
+
+
+#nav{
+	width: 1920px;
+	height: 50px;
+	margin: 0 auto;
+	background: #2AA102;
+}
+#nav ul {
+	width: 1145px;
+	height: 40px;
+	margin-left: 360px;
+}
+
+
+#nav ul li {
+	height: 50px;
+	list-style: none;
+	float: left;
+	font-size: 24px;
+	text-align: center;
+	line-height: 47px;
+	margin-right: 74px;
+}
+
+
+#nav ul li a {
+	height: 50PX;
+	display: inline-block;
+	color: white;
+}
+
+
+#nav ul li a:hover {
+	background: white;
+	color: green;
+}
+
+
+#nav a {
+	color: white;
+	text-decoration: none;
+}
+
+
+#xialanav {
+	width: 1100px;
+	height: 177px;
+	background: rgba(191, 186, 190, 0.6);
+	position: absolute;
+	top: 180px;
+	left:360px;
+	z-index: 10px;
+	display: none;
+}
+
+
+#xialanav ul {
+	float: left;
+	margin: 0;
+	margin-right: 99px;
+	list-style: none;
+}
+
+
+.ul1 {
+	position: relative;
+	left: -43px;
+}
+
+
+#xialanav ul li {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+#xialanav ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+
+#xialanav ul li:hover a {
+	color: white;
+}
+
+
+#xialanav ul li:hover {
+	border-bottom: 2px solid #13CC40;
+}
+
+
+
+
+.banner {
+	width: 1920px;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	position:relative;
+}
+
+
+.box02 {
+	width: 7680px;
+	border: 3px solid black;
+	overflow: hidden;
+}
+.box02 img{
+	width: 1920px;
+	height: 600px;
+	float: left;
+}
+.box02 ul {
+	list-style: none;
+	overflow: hidden;
+	position: absolute;
+	left: 180px;
+	bottom: 0px;
+}
+
+
+.box02 li {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+
+
+.nav {
+	width: 450px;
+	height: 100px;
+	float: left;
+	position: relative;
+	left: 745px;
+	margin: 0 auto;
+}
+
+
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.nav #yrgk {
+	width: 100px;
+	height: 100px;
+	margin-left: 40px;
+	float: left;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 50%;
+	font-size: 35px;
+	color: white;
+	position: relative;
+	bottom: 60PX;
+	background: #3Eb0fd;
+	transition: all 1s;
+}
+
+
+#yrgk:hover {
+	transform: translate(0px, -50px);
+}
+
+
+.nav #zxzx {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 50%;
+	position: relative;
+	bottom: 60PX;
+	font-size: 35px;
+	color: white;
+	background: #61CA3A;
+	transition: all 1s;
+}
+
+
+#zxzx:hover {
+	transform: translate(0px, -50px);
+}
+
+
+.nav #jsxm {
+	width: 100px;
+	font-size: 35px;
+	height: 100px;
+	margin-left: 40px;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 50%;
+	position: relative;
+	bottom: 60PX;
+	float: left;
+	color: white;
+	background: #F85C99;
+	transition: all 1s;
+}
+
+
+#jsxm:hover {
+	transform: translate(0px, -50px);
+}
+			#main {
+				width: 100%;
+				height: 1800px;
+				margin-top: 50px;
+			}
+			
+			.main1 {
+				width: 1200px;
+				height: 1800px;
+				margin: 0 auto;
+			}
+			
+			.main_box1 {
+				width: 1200px;
+				height: 26px;
+				position: relative;
+				right: 85px;
+			}
+		
+			#main .main_box1 a {
+				color: #000000;
+				font-size: 26px;
+				position: relative;
+				text-decoration: none;
+			}
+			
+			.main_box2 {
+				width: 100%;
+				height: 239px;
+				position: relative;
+				top: 60px;
+			}
+			
+			.main_top {
+				width: 800px;
+				height: 120px;
+				position: relative;
+			}
+			
+			.main_wenzi {
+				width: 800px;
+				height: 60px;
+			}
+			
+			.main_top .xian {
+				width: 83px;
+				height: 5px;
+				border: 2px;
+				position: relative;
+				left: 518px;
+				background: #5FCA3C;
+			}
+			
+			.main_top .yingwen {
+				width: 800px;
+				height: 34px;
+				margin-top: 15px;
+				color: white;
+			}
+			
+			.main_top .wenzi {
+				width: 1200px;
+				height: 125px;
+				line-height: 25px;
+				margin-top: 26px;
+			}
+			
+			.main_box3 {
+				width: 1200px;
+				height: 66px;
+				margin-top: 27px;
+			}
+			
+			.main_box4 {
+				width: 100%;
+				height: 484px;
+				margin-top: 54px;
+				
+			}
+			.main_box5{
+				width: 1200px;
+				height: 400px;
+				margin-top: 20px;
+			}
+			.main_box5_one{
+				width: 1200px;
+				height: 110px;
+				margin-top: 37px;
+			}
+			.main_box5_one div{
+				color:#4BBF17;
+				font-size: 20px;
+			}
+			.main_box5_one span{
+				position: relative;
+				top: 37px;
+			}
+			.main_box6{
+				width: 1200px;
+				height:162px;
+				margin-top: 50px;
+			}
+			.main_box6 img{
+				width: 258px;
+				height: 162px;
+			
+			}
+			
+			/*最下端部分*/
+#sybase {
+	height: 400px;
+	width: 1920px;
+	background: #05AA01;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+		</style>
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+	</head>
+
+	<body>
+<!--上层部分-->
+		<div id="bodder">
+			<div id="header">
+				<div id="headerleft">
+					<img style="margin-left: 340px;" src="images/首页_03.gif" />
+				</div>
+				<div id="headerright">
+					<form action="" method="post">
+						<input type="text" value="请输入搜索内容" />
+						<img src="images/fangdajing.png" />
+					</form>
+				</div>
+			</div>
+			<div id="nav">
+
+
+				<ul>
+					<li id="li1">
+						<a href="homePage.html">首页<img src="images/首页_0300_07.gif" /> </a>
+					</li>
+					<li id="li2">
+						<a href="yrgk.html">盈瑞概况<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li3">
+						<a href="chanpinjiayong.html">产品展示<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li4">
+						<a href="jianshenxm.html">健身项目<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li5">
+						<a href="zxzx.html">咨询中心<img src="images/首页_0300_07.gif" /></a>
+					</li>
+					<li id="li6">
+						<a href="jrwm.html">服务与支持<img src="images/首页_0300_07.gif" /></a>
+					</li>
+				</ul>
+
+
+			</div>
+			<script type="text/javascript">
+				window.onload = function() {
+	//下拉框
+	var li = document.getElementsByTagName("li1");
+	var xiala = document.getElementById("xialanav");
+	for(var i = 1; i <= 6; i++) {
+		var l = document.getElementById("li" + i);
+		l.onmousemove = function() {
+			xiala.style.display = "block";
+		}
+		l.onmouseout = function() {
+			xiala.style.display = "none";
+		}
+	}
+
+
+	xiala.onmousemove = function() {
+		xiala.style.display = "block";
+
+
+	}
+	xiala.onmouseout = function() {
+		xiala.style.display = "none";
+	}
+
+
+
+
+}
+			</script>
+			<div class="banner">
+
+
+				<!--要移动的盒子-->
+				<div class="box02">
+					<img src="images/01_02.gif">
+					<img src="images/02_02.gif">
+					<img src="images/03_02.gif">
+					<img src="images/01_02.gif">
+				</div>
+
+
+			</div>
+			<script type="text/javascript">
+				/*轮播*/
+				n = 0;
+
+
+				function q() {
+					n++;
+					if(n > 3) {
+						n = 0;
+						$(".box02").css({
+							"margin-left": "0px"
+						});
+					}
+					$(".box02").animate({
+						marginLeft: -1920 * n
+					}, 2000);
+
+
+				}
+				time = setInterval(q, 3000);
+			</script>
+			<div id="xialanav">
+					<ul>
+						<li>
+							<a href="yrgk.html">盈瑞概括</a>
+						</li>
+						<li>
+							<a href="zxzx.html">咨询中心</a>
+						</li>
+						<li>
+							<a href="jrwm.html">服务流程</a>
+						</li>
+						<li>
+							<a href="jianshenxm.html">健身项目</a>
+						</li>
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="yrgk.html">盈瑞简介</a>
+						</li>
+						<li>
+							<a href="yrdt.html">盈瑞动态</a>
+						</li>
+
+					</ul>
+					<ul class="ul1">
+						<li>
+							<a href="chanpinjiayong.html">家用</a>
+						</li>
+						<li>
+							<a href="chanpinhuwai.html  ">户外</a>
+						</li>
+						<li>
+							<a href="chanpinpinpai.html ">品牌</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="jsxmyujia.html ">瑜伽</a>
+						</li>
+						<li>
+							<a href="jsxmgangling.html">杠铃</a>
+						</li>
+						<li>
+							<a href="jsxmdanche.html">单车</a>
+						</li>
+						<li>
+							<a href="jsxm.html">普拉提</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="chanpinjiayong.html">产品咨询</a>
+						</li>
+						<li>
+							<a href="zxtwo.html">健身咨询</a>
+						</li>
+						<li>
+							<a href="zxzx.html">新闻咨询</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="lxwm.html">服务保障</a>
+						</li>
+						<li>
+							<a href="lxwm.html">联系我们</a>
+						</li>
+						<li>
+							<a href="jrwm.html">加入我们</a>
+						</li>
+						<li>
+							<a href="wxcs.html">维修常识</a>
+						</li>
+
+					</ul>
+				</div>
+
+
+			<div class="nav">
+				<div id="yrgk">
+					<span><a href="yrgk.html">公司简介</a></span>
+				</div>
+				
+				<div id="jsxm">
+					<sapn>
+						<a href="yrdt.html">公司动态</a>
+					</sapn>
+				</div>
+			</div>
+		<div id="main">
+			<div class="main1">
+				<div class="main_box1">
+					<a href="homePage.html">首页</a>
+					<span>—</span>
+					<a href="yrgk.html">赢瑞概况</a>
+					<span>—</span>
+					<a href="yrdt.html">公司简介</a>
+				</div>
+				<div class="main_box2">
+					<div class="main_top">
+						<div class="main_wenzi">
+							<span style="margin-left: 382px;font-size: 40px;">赢瑞概况</span>
+						</div>
+						<div class="xian"></div>
+						<div class="yingwen">
+							<span style="margin-left: 430px;color: #969696;">ENTERPRISE&nbsp;GENERALIZATIONS</span>
+						</div>
+						<div class="wenzi">
+							<div class="wenzi1">
+								盈瑞健康科技位于山西省太原市盛世华庭四层营业面积达5000多平方米，是目前太原市教豪华的专业健身俱乐部。遵循“健康时尚、专业、经典”的品牌经营理念<br />
+								，坚持“以人为本”的服务宗旨，盈瑞健康科技全力打造业内卓越品质的典范，为太原时尚人士奉献全新的健身理念。超赫健身俱乐部引进韩国秀健及美国太空世界<br />
+								顶级健身器材；设有氧器械区、力量训练器械区、VIP综合训练区、有氧操房、动感单车房、体能测试室、果汁吧、上网区、洗浴房、更衣区、运动营养品专卖等<br />
+								区域，使会员得到专业健身的同时，充分满足会员对健康生活的各种需求.超赫健身让健康 延伸城市的各个角落，为广大会员提供方便、舒适、快捷的时尚休闲和<br />
+								运动健康服务，让人们能得到压力的舒解，进而享受真正身心健康的快乐。
+							</div>
+						</div>
+						<div class="main_box3">
+							The new fad is led by Figurerobics, a training approach combining both muscular and aerobic training to rhythmic music。The new fad is led by <br />
+							Figurerobics, a training approach combining both muscular and aerobic training to rhythmic music。 This figure-keeping method is <br />
+							enthusiastically pursued by Chinese young men and women now。
+						</div>
+						<div class="main_box4">
+							<img src="images/2级企业概况公司简介1_03.png" alt="" />
+						</div>
+						<div class="main_box5">
+							<div class="main_box5_one">
+								<div>完善商业业态、打造“一站式”休闲服务</div>
+								<span>
+									作为山西本土成长起来的健身连锁运营商，盈瑞健身在山西商业中心的服务功能完善中，扮演了极为重要的角色。2007年4月龙之梦中山公园会所开业，盈瑞的强<br />
+									大品牌号召力很快为该商圈聚集了大量人气，新颖的课程、激情四射的运动、专业的跑步机等健身器材----无不为商圈内的白领带来了完美的运动享受！与百联集<br />
+									团强强联手，则将盈瑞的“一站式”休闲服务理念展现到极至：长治朝阳路又一城会所、太原东区会所等相继成为大型商业中心不可或缺的功能组成部分。 
+								</span>
+							</div>
+							<div class="main_box5_one">
+								<div>成就完美社区、构建和谐家园</div>
+								<span>
+									盈瑞健身作为著名的健身会所运营商，已经成功成为诸多房地产开发商在楼盘配套健身会所品牌上的不二选择。万科地产、大华地产、公园美地、百德尚景----著<br />
+									名的房地产企业往往将盈瑞作为楼盘售卖时的金字招牌之一推荐给消费者。贝斯健身的国际化管理经验、优质的硬件设施、温馨周到的服务都为业主带来了舒适便<br />
+									捷的健身服务享受。
+								</span>
+							</div>
+							<div class="main_box5_one">
+								<div>服务于全民健身，倡导健康生活方式</div>
+								<span>
+									现代社会人口老龄化问题日益严重，而城市里适合老年人活动的地方却很少，我们有义务为他们创造健身环境。以上海市中原社区体育中心为例，针对周边20万居<br />
+									民，贝斯的做法是把晚间高峰时间给白领，在17点以前，推出“早上1元跳操”活动，几百元的非高峰卡，让居民(特别是老年人)在安全的环境和专业人士指导下进<br />
+									行运动。
+								</span>
+							</div>
+						</div>
+						<div class="main_box6">
+							<img src="images/2级企业概况公司简介2_03.png"/>
+							<img style="margin-left: 47px;" src="images/2级企业概况公司简介2_05.png"/>
+							<img style="margin-left: 47px;"  src="images/2级企业概况公司简介4_07.png"/>
+							<img style="margin-left: 47px;"  src="images/2级企业概况公司简介5_09.png"/>
+						</div>
+					</div>
+
+				</div>
+				
+				
+			</div>
+		</div>
+	<!--最下端部分-->
+			<div id="sybase">
+				<span id="font">
+				<span>
+					<img style="margin-top: 100px; margin-left: 330px;" src="images/二维码_47.png" height="150px"/>
+				<ul style="list-style: none;margin-left:500px;margin-top: -120px; line-height: 30px;color: white;font-size: 20px;">
+					<li style="letter-spacing: 5px;">山西盈瑞科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;备案号：晋ICP备17006549号—3</li>
+					<li style="letter-spacing: 2px;">联系电话：17634068219&nbsp;&nbsp;&nbsp;&nbsp;0351—7891032</li>
+					<li>QQ：3849009147&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：山西省太原市盛世华庭四层</li>
+				</ul>
+				</span>
+				<span style="position: relative;left: 1450px;top: -100px;color: white;">
+					分享:
+					<img style="position: relative;top: 10px;" src="images/微信_07.png" width="30px" />
+					<img style="position: relative;top: 10px;" src="images/扣扣_12.png" width="30px" />
+				</span>
+				</span>
+			</div>
+	</body>
+
+</html>
