@@ -6,7 +6,7 @@ window.onload = function() {
 		var l = document.getElementById("li" + i);
 		l.onmousemove = function() {
 			xiala.style.display = "block";
-		    xiala.style.background="red";
+		    
 		}
 		l.onmouseout = function() {
 			xiala.style.display = "none";
@@ -15,7 +15,7 @@ window.onload = function() {
 
 	xiala.onmousemove = function() {
 		xiala.style.display = "block";
-		xiala.style.background="red";
+		s
 
 	}
 	xiala.onmouseout = function() {
